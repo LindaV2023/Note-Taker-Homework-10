@@ -1,6 +1,22 @@
-[
+
+{
+    "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+     "title": "Note Taker",
+      "text": 
+         "An application to add and delete personal notes",
+      "id": "0"
+},
+
+    {
+    "title": "Delete A Note",
+    "text": 
+        "A way to delete old notes from your list",
+        "id": "1"
     }
 ]
+}
+
+
+
+
