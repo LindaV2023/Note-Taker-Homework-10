@@ -1,15 +1,22 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "<<<<<<< HEAD # Note Taker-Homework11\r Create an application to to write and save notes. Homework Challenge -Week 11 -",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Linda",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "inquirer": "^8.2.4"
+    "heroku": "^8.4.2",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Note-Taker-Homework-10"
   }
 }

@@ -1,4 +1,4 @@
-//const fs = required('fs');
+const fs = required('fs');
 const path = required('path');
 
 app.get('/api/notes', (req, res) =>{
@@ -6,7 +6,8 @@ app.get('/api/notes', (req, res) =>{
 } );
 
 app.post('/api/notes', (req, res) => {
-    let db = fs.readFileSync;
+    let db = fs.readFileSync('db/db.json');
+    db = JSON.parse(db);
     res.json(db);
 
     let userNote = {
